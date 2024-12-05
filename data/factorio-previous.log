@@ -1,0 +1,57 @@
+   0.001 2024-12-04 15:22:49; Factorio 2.0.20 (build 80511, linux64, headless, space-age)
+   0.002 Operating system: Linux
+   0.002 Program arguments: "/opt/factorio/bin/x64/factorio" "--port" "34197" "--server-settings" "/factorio/config/server-settings.json" "--server-banlist" "/factorio/config/server-banlist.json" "--rcon-port" "27015" "--server-whitelist" "/factorio/config/server-whitelist.json" "--use-server-whitelist" "--server-adminlist" "/factorio/config/server-adminlist.json" "--rcon-password" <private> "--server-id" "/factorio/config/server-id.json" "--mod-directory" "/factorio/mods" "--start-server-load-latest" 
+   0.003 Config path: /opt/factorio/config/config.ini
+   0.003 Read data path: /opt/factorio/data
+   0.003 Write data path: /factorio [83697/471482MB]
+   0.003 Binaries path: /opt/factorio/bin
+   0.034 System info: [CPU:                             Box64 on - @1000 MHz, 11 cores, RAM: 7840 MB]
+   0.034 Environment: DISPLAY=<unset> WAYLAND_DISPLAY=<unset> DESKTOP_SESSION=<unset> XDG_SESSION_DESKTOP=<unset> XDG_CURRENT_DESKTOP=<unset> SDL_VIDEODRIVER=<unset> __GL_FSAA_MODE=<unset> __GL_LOG_MAX_ANISO=<unset> __GL_SYNC_TO_VBLANK=<unset> __GL_SORT_FBCONFIGS=<unset> __GL_YIELD=<unset>
+   0.039 Running in headless mode
+   0.039 Audio is disabled
+   0.047 Info ModManager.cpp:434: FeatureFlag expansion-shaders = true
+   0.047 Info ModManager.cpp:434: FeatureFlag freezing = true
+   0.047 Info ModManager.cpp:434: FeatureFlag quality = true
+   0.047 Info ModManager.cpp:434: FeatureFlag rail-bridges = true
+   0.048 Info ModManager.cpp:434: FeatureFlag segmented-units = true
+   0.048 Info ModManager.cpp:434: FeatureFlag space-travel = true
+   0.048 Info ModManager.cpp:434: FeatureFlag spoiling = true
+   0.072 Loading mod core 0.0.0 (data.lua)
+   0.102 Loading mod base 2.0.20 (data.lua)
+   0.327 Loading mod elevated-rails 2.0.20 (data.lua)
+   0.360 Loading mod quality 2.0.20 (data.lua)
+   0.373 Loading mod space-age 2.0.20 (data.lua)
+   0.669 Loading mod base 2.0.20 (data-updates.lua)
+   0.691 Loading mod quality 2.0.20 (data-updates.lua)
+   0.745 Loading mod space-age 2.0.20 (data-updates.lua)
+   0.899 Checksum for core: 2863993211
+   0.899 Checksum of base: 3548713318
+   0.900 Checksum of elevated-rails: 2929976872
+   0.900 Checksum of quality: 3484764141
+   0.900 Checksum of space-age: 1973748825
+   1.747 Prototype list checksum: 3872509593
+   1.841 Info PlayerData.cpp:66: Local player-data.json available, timestamp 1733325745
+   1.841 Info PlayerData.cpp:73: Cloud player-data.json unavailable
+   1.856 Factorio initialised
+   1.862 Info ServerSynchronizer.cpp:20: nextHeartbeatSequenceNumber(0) initialized Synchronizer nextTickClosureTick(0).
+   1.862 Info ServerMultiplayerManager.cpp:806: updateTick(18446744073709551615) changing state from(Ready) to(PreparedToHostGame)
+   1.862 Info ServerMultiplayerManager.cpp:806: updateTick(18446744073709551615) changing state from(PreparedToHostGame) to(CreatingGame)
+   1.863 Loading map /factorio/saves/_autosave1.zip: 625960 bytes.
+   1.916 Loading level.dat: 782851 bytes.
+   1.922 Info Scenario.cpp:178: Map version 2.0.20-3
+   1.995 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.997 Loading script.dat: 1211 bytes.
+   2.007 Checksum for script __level__/control.lua: 1487321736
+   2.017 Info UDPSocket.cpp:32: Opening socket at (IP ADDR:({0.0.0.0:34197}))
+   2.018 Hosting game at IP ADDR:({0.0.0.0:34197})
+   2.019 Info HttpSharedState.cpp:55: Downloading https://auth.factorio.com/generate-server-padlock-2?api_version=6
+   2.644 Info AuthServerConnector.cpp:108: Obtained serverPadlock for serverHash (DZgnxa5YP0QMvTCVCXtrJhU6ITzPlOBj) from the auth server.
+   2.645 Info ServerMultiplayerManager.cpp:806: updateTick(0) changing state from(CreatingGame) to(InGame)
+   2.647 Info UDPSocket.cpp:44: Opening socket for broadcast
+   2.651 Error InterruptibleStdioStream.cpp:60: Got EOF on stdin; closing
+   2.653 Info RemoteCommandProcessor.cpp:126: Starting RCON interface at IP ADDR:({0.0.0.0:27015})
+   2.654 Info CommandLineMultiplayer.cpp:288: Maximum segment size = 100; minimum segment size = 25; maximum-segment-size peer count = 10; minimum-segment-size peer count = 20
+  11.860 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.65.1:51327}))
+  11.862 Refusing connection for address (IP ADDR:({192.168.65.1:51327})), username (allelleo). UserVerificationMissing
+  22.444 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.65.1:51697}))
+  22.445 Refusing connection for address (IP ADDR:({192.168.65.1:51697})), username (allelleo). UserVerificationMissing

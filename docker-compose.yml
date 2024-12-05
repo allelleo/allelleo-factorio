@@ -2,7 +2,7 @@ version: "2"
 services:
   factorio:
     container_name: factorio
-    image: factoriotools/factorio:stable
+    image: factoriotools/factorio:2.0.20
     restart: unless-stopped
     ports:
       - "34197:34197/udp"

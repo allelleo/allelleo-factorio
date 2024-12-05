@@ -1,0 +1,73 @@
+   0.001 2024-12-04 15:25:34; Factorio 2.0.20 (build 80511, linux64, headless, space-age)
+   0.002 Operating system: Linux
+   0.002 Program arguments: "/opt/factorio/bin/x64/factorio" "--port" "34197" "--server-settings" "/factorio/config/server-settings.json" "--server-banlist" "/factorio/config/server-banlist.json" "--rcon-port" "27015" "--server-whitelist" "/factorio/config/server-whitelist.json" "--use-server-whitelist" "--server-adminlist" "/factorio/config/server-adminlist.json" "--rcon-password" <private> "--server-id" "/factorio/config/server-id.json" "--mod-directory" "/factorio/mods" "--start-server-load-latest" 
+   0.002 Config path: /opt/factorio/config/config.ini
+   0.003 Read data path: /opt/factorio/data
+   0.003 Write data path: /factorio [83688/471482MB]
+   0.003 Binaries path: /opt/factorio/bin
+   0.025 System info: [CPU:                             Box64 on - @1000 MHz, 11 cores, RAM: 7840 MB]
+   0.026 Environment: DISPLAY=<unset> WAYLAND_DISPLAY=<unset> DESKTOP_SESSION=<unset> XDG_SESSION_DESKTOP=<unset> XDG_CURRENT_DESKTOP=<unset> SDL_VIDEODRIVER=<unset> __GL_FSAA_MODE=<unset> __GL_LOG_MAX_ANISO=<unset> __GL_SYNC_TO_VBLANK=<unset> __GL_SORT_FBCONFIGS=<unset> __GL_YIELD=<unset>
+   0.030 Running in headless mode
+   0.031 Audio is disabled
+   0.037 Info ModManager.cpp:434: FeatureFlag expansion-shaders = true
+   0.037 Info ModManager.cpp:434: FeatureFlag freezing = true
+   0.037 Info ModManager.cpp:434: FeatureFlag quality = true
+   0.038 Info ModManager.cpp:434: FeatureFlag rail-bridges = true
+   0.038 Info ModManager.cpp:434: FeatureFlag segmented-units = true
+   0.038 Info ModManager.cpp:434: FeatureFlag space-travel = true
+   0.038 Info ModManager.cpp:434: FeatureFlag spoiling = true
+   0.058 Loading mod core 0.0.0 (data.lua)
+   0.083 Loading mod base 2.0.20 (data.lua)
+   0.297 Loading mod elevated-rails 2.0.20 (data.lua)
+   0.327 Loading mod quality 2.0.20 (data.lua)
+   0.342 Loading mod space-age 2.0.20 (data.lua)
+   0.611 Loading mod base 2.0.20 (data-updates.lua)
+   0.627 Loading mod quality 2.0.20 (data-updates.lua)
+   0.654 Loading mod space-age 2.0.20 (data-updates.lua)
+   0.806 Checksum for core: 2863993211
+   0.807 Checksum of base: 3548713318
+   0.807 Checksum of elevated-rails: 2929976872
+   0.807 Checksum of quality: 3484764141
+   0.807 Checksum of space-age: 1973748825
+   1.564 Prototype list checksum: 3872509593
+   1.645 Info PlayerData.cpp:66: Local player-data.json available, timestamp 1733325745
+   1.645 Info PlayerData.cpp:73: Cloud player-data.json unavailable
+   1.658 Factorio initialised
+   1.664 Info ServerSynchronizer.cpp:20: nextHeartbeatSequenceNumber(0) initialized Synchronizer nextTickClosureTick(0).
+   1.664 Info ServerMultiplayerManager.cpp:806: updateTick(18446744073709551615) changing state from(Ready) to(PreparedToHostGame)
+   1.664 Info ServerMultiplayerManager.cpp:806: updateTick(18446744073709551615) changing state from(PreparedToHostGame) to(CreatingGame)
+   1.665 Loading map /factorio/saves/_autosave1.zip: 625960 bytes.
+   1.768 Loading level.dat: 782851 bytes.
+   1.774 Info Scenario.cpp:178: Map version 2.0.20-3
+   1.842 Blueprint storage "blueprint-storage-2.dat" was not found, trying to load previous version storage "blueprint-storage.dat"
+   1.844 Loading script.dat: 1211 bytes.
+   1.853 Checksum for script __level__/control.lua: 1487321736
+   1.863 Info UDPSocket.cpp:32: Opening socket at (IP ADDR:({0.0.0.0:34197}))
+   1.864 Hosting game at IP ADDR:({0.0.0.0:34197})
+   1.864 Info ServerMultiplayerManager.cpp:806: updateTick(0) changing state from(CreatingGame) to(InGame)
+   1.866 Info UDPSocket.cpp:44: Opening socket for broadcast
+   1.868 Error InterruptibleStdioStream.cpp:60: Got EOF on stdin; closing
+   1.868 Info RemoteCommandProcessor.cpp:126: Starting RCON interface at IP ADDR:({0.0.0.0:27015})
+   1.869 Info CommandLineMultiplayer.cpp:288: Maximum segment size = 100; minimum segment size = 25; maximum-segment-size peer count = 10; minimum-segment-size peer count = 20
+   4.727 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.65.1:17633}))
+   4.731 Refusing connection for address (IP ADDR:({192.168.65.1:17633})), username (vbc_kek). PasswordMissing
+   7.058 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({192.168.65.1:60797}))
+   7.060 Refusing connection for address (IP ADDR:({192.168.65.1:60797})), username (vbc_kek). ModsMismatch
+ 540.854 Received SIGTERM, shutting down
+ 540.856 Quitting: signal.
+ 540.857 Info MainLoop.cpp:435: Saving map as /factorio/saves/_autosave1.zip
+ 540.996 Info MainLoop.cpp:446: Saving progress: 0.250000%
+ 541.003 Info MainLoop.cpp:446: Saving progress: 100.000000%
+ 541.053 Info ServerMultiplayerManager.cpp:119: Disconnecting multiplayer connection.
+ 541.053 Info ServerMultiplayerManager.cpp:806: updateTick(0) changing state from(InGame) to(DisconnectingScheduled)
+ 541.093 Info ServerMultiplayerManager.cpp:806: updateTick(0) changing state from(DisconnectingScheduled) to(Disconnecting)
+ 541.132 Info ServerMultiplayerManager.cpp:806: updateTick(0) changing state from(Disconnecting) to(Disconnected)
+ 541.132 Info ServerMultiplayerManager.cpp:146: Quitting multiplayer connection.
+ 541.133 Info ServerMultiplayerManager.cpp:806: updateTick(0) changing state from(Disconnected) to(Closed)
+ 541.133 Info ServerMultiplayerManager.cpp:166: Deleting active scenario (global = true).
+ 541.267 Info UDPSocket.cpp:233: Closing socket
+ 541.268 Info UDPSocket.cpp:263: Socket closed
+ 541.268 Info UDPSocket.cpp:233: Closing socket
+ 541.335 Info UDPSocket.cpp:233: Closing socket
+ 541.335 Info UDPSocket.cpp:263: Socket closed
+ 541.600 Goodbye
